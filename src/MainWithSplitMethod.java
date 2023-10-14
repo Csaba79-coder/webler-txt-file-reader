@@ -27,6 +27,9 @@ public class MainWithSplitMethod {
         return temp;
     }
 
+    // .slit() method szétszedi a regex mentén!
+    // .trim() method eltávolítja a felesleges szóközöket!
+
     public static String[] modifyLines(String line) {
         String[] parts = line.split(";");
         if (line.endsWith("*")) {
